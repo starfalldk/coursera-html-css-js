@@ -1,0 +1,107 @@
+body {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    background-color: #fff;
+    font-family: "Oxygen", sans-serif;
+}
+
+.menu {
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+#chicken-tile, #beef-tile, #sushi-tile {
+    width: 400px;
+    height: 60%;
+    float: left;
+    background-color: #999999;
+    font-size: 16px;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #000;
+    overflow: hidden;
+    background-position: center;
+}
+
+#chicken-tile span, #beef-tile span, #sushi-tile span {
+    position: absolute;
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+    top: 0;
+    right: 0;
+    width: 40%;
+    text-align: center;
+    font-size: 1.6em;
+}
+
+#chicken-tile p, #beef-tile p, #sushi-tile p {
+    margin-top: 50px;
+}
+
+#chicken-tile span {
+    background-color: #d59898;
+    color: #000;
+}
+
+#beef-tile span {
+    background-color: #c14543;
+    color: #fff;
+}
+
+#sushi-tile span {
+    background-color: #e5d198;
+    color: #000;
+}
+
+.col {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+/*END OF HOMEPAGE*/
+
+/*MEDIA*/
+@media (min-width: 992px) {
+    .col {
+        float: left;
+    }
+    .container {
+        padding-left: 15%;
+    }
+    #chicken-tile, #beef-tile, #sushi-tile {
+        max-width: auto;
+        height: 100%;
+        margin-bottom: 15px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+    #chicken-tile, #beef-tile {
+        align-self:auto;
+        float: left;
+        width: 47%;
+        height: 100%;
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+    #sushi-tile {
+        align-self:auto;
+        width: 96.5%;
+        height: 100%;
+        margin-left: 15px;
+    }
+}
+@media (max-width: 767px) {
+    #chicken-tile, #beef-tile, #sushi-tile {
+        width: auto;
+        height: 100%;
+        margin-bottom: 15px;
+    }
+}

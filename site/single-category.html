@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:400,300,700" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="index.html" class="pull-left visible-md visible-lg">
+                        <div id="logo-img" alt="Logo image"></div>
+                    </a>
+
+                    <div class="navbar-brand">
+                        <a href="index.html"><h1>My cute Restaurant</h1></a>
+                        <p>
+                            <img src="images/star.png" style="height: 30; width: 30;" alt="">
+                            <span>Michelin Certification</span>
+                        </p>
+                    </div>
+
+                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="collapsable-nav" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                   </button> 
+                </div>
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right">
+                        <li class="visible-xs">
+                            <a href="index.html">
+                                <span class="glyphicon glyphicon-home"></span> Home</a>
+                        </li>
+                        <li class="active">
+                            <a href="menu-categories.html">
+                                <span class="glyphicon glyphicon-cutlery"></span> <br class="hidden-xs"> Menu</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                            <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                            <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
+                        </li>
+                        <li id="phone" class="hidden-xs">
+                            <a href="tel:123-456-789">
+                                <span>123-456-789</span>
+                            </a><div>* We Deliver</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="call-btn" class="visible-xs">
+        <a class="btn" href="tel:123-456-789"><span class="glyphicon glyphicon-earphone"></span>123-456-789</a>
+    </div>
+    <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
+
+
+    <div id="main-content" class="container">
+        <h2 id="menu-categories-title" class="text-center">Lunch Menu</h2>
+        <div class="text-center">Buy Lunch after 1 PM</div>
+
+        <section class="row">
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>D01</div>
+                            <img class="img-responsive" width="250" height="150"  src="images/menu/item.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">$11.99 <span>(0.5 l)</span>$17.99 <span>(1 l)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Guinness top 1</h3>
+                        <p class="menu-item-details">Guinness best beer in the world, so it will be first in our list</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>D02</div>
+                            <img class="img-responsive" width="250" height="150"  src="images/menu/item.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">$11.99 <span>(0.5 l)</span>$17.99 <span>(1 l)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Guinness top 1</h3>
+                        <p class="menu-item-details">Guinness best beer in the world, so it will be first in our list</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="clearfix visible-md-block visible-lg-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>D03</div>
+                            <img class="img-responsive" width="250" height="150"  src="images/menu/item.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">$11.99 <span>(0.5 l)</span>$17.99 <span>(1 l)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Guinness top 1</h3>
+                        <p class="menu-item-details">Guinness best beer in the world, so it will be first in our list</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>D04</div>
+                            <img class="img-responsive" width="250" height="150"  src="images/menu/item.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">$11.99 <span>(0.5 l)</span>$17.99 <span>(1 l)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Guinness top 1</h3>
+                        <p class="menu-item-details">Guinness best beer in the world, so it will be first in our list</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="clearfix visible-md-block visible-lg-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>D05</div>
+                            <img class="img-responsive" width="250" height="150"  src="images/menu/item.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">$11.99 <span>(0.5 l)</span>$17.99 <span>(1 l)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Guinness top 1</h3>
+                        <p class="menu-item-details">Guinness best beer in the world, so it will be first in our list</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>D06</div>
+                            <img class="img-responsive" width="250" height="150"  src="images/menu/item.jpg" alt="Item">
+                        </div>
+                        <div class="menu-item-price">$11.99 <span>(0.5 l)</span>$17.99 <span>(1 l)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Guinness top 1</h3>
+                        <p class="menu-item-details">Guinness best beer in the world, so it will be first in our list</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="clearfix visible-md-block visible-lg-block"></div>
+            
+        </section>
+
+    </div>
+
+
+    <footer class="panel-footer">
+        <div class="container">
+            <div class="row">
+                <section id="hours" class="col-sm-4">
+                    <span>Hours:</span><br>
+                    Sun-Thurs: 11 AM - 10 PM<br>
+                    Fri: 11 AM - 3 PM<br>
+                    Saturday Closed
+                    <hr class="visible-xs">
+                </section>
+                <section id="address" class="col-sm-4">
+                    <span>Address:</span><br>
+                    Lyskivska St. 9A<br>
+                    Kyiv, Ukraine<br>
+                    <p>* Delivery are 3 km, min order 20$</p>
+                    <hr class="visible-xs">
+                </section>
+                <section id="testimonials" class="col-sm-4">
+                    <p>The best Pivbar in the world</p>
+                    <p>The Greatest pivas ever</p>
+                </section>
+            </div>
+            <div class="text-center">&copy; Copyright Pivbar</div>
+        </div>
+    </footer>
+
+
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
